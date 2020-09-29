@@ -9,7 +9,7 @@ const roll = (format, name, conf) => {
   ).then(bundle => bundle
     .write({
       format,
-      name: 'KeInputMask',
+      name: 'AsInputMask',
       file: 'dist/' + name + '.js'
     })
   );

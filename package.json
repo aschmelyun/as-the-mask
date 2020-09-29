@@ -1,14 +1,14 @@
 {
-  "name": "ke-the-mask",
-  "version": "0.0.3",
+  "name": "as-the-mask",
+  "version": "1.0.0",
   "description": "Tiny (2KB) and dependency free mask input for Vue.js",
   "main": "dist/cjs.js",
   "module": "dist/es6.js",
   "esnext": "lib/index.js",
   "unpkg": "dist/umd.js",
-  "repository": "https://github.com/KazanExpress/ke-the-mask",
+  "repository": "https://github.com/aschmelyun/as-the-mask",
   "bugs": {
-    "url": "https://github.com/KazanExpress/ke-the-mask/issues"
+    "url": "https://github.com/aschmelyun/as-the-mask/issues"
   },
   "scripts": {
     "build": "node build",
@@ -26,7 +26,7 @@
     "vue",
     "mask"
   ],
-  "author": "Marcos Neves <marcos.neves@gmail.com>, KazanExpress",
+  "author": "Marcos Neves <marcos.neves@gmail.com>, Andrew Schmelyun <me@aschmelyun.com>",
   "license": "MIT",
   "browserslist": [
     "last 2 chrome versions"

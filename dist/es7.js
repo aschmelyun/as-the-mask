@@ -169,7 +169,8 @@ function mask (el, binding) {
     while (position < el.value.length && el.value.charAt(position - 1) !== digit) {
       position++;
     }
-    if (el === document.activeElement) {
+    // fixes vue-the-mask original issue #87 with email input types
+    if (el === document.activeElement && el.type !== 'email') {
       el.setSelectionRange(position, position);
       setTimeout(function () {
         // account for the caret jumping backwards, see issue #49
