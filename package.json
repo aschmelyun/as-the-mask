@@ -1,6 +1,6 @@
 {
   "name": "as-the-mask",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny (2KB) and dependency free mask input for Vue.js",
   "main": "dist/cjs.js",
   "module": "dist/es6.js",
