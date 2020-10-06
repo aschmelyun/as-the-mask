@@ -60,7 +60,7 @@ export default function (el, binding) {
       position++
     }
     // fixes vue-the-mask original issue #87 with email input types
-    if ((el === document.activeElement) && (el.type !== 'email')) {
+    if ((el === document.activeElement) && (el.type !== 'email') && (el.type !== 'number')) {
       el.setSelectionRange(position, position)
       setTimeout(function () {
         // account for the caret jumping backwards, see issue #49
